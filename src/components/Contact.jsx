@@ -17,7 +17,7 @@ const Contact = () => {
           {/* Header */}
           <div className="mb-12">
             <h2 className="text-4xl font-bold text-[#111439]">
-              Let’s Work Together
+              Let’s Connect
             </h2>
             <p className="mt-4 text-gray-600 max-w-xl">
               Interested in collaborating, hiring, or discussing a project?
