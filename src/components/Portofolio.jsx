@@ -6,6 +6,8 @@ const portfolioItems = [
   {
     title: "Industrial IoT Dashboard",
     desc: "Real-time monitoring dashboard with sensor integration and data visualization.",
+    image: "/assets/monitoringdash.png",
+    type: "dashboard",
   },
   {
     title: "Computer Vision System",
@@ -75,6 +77,32 @@ const Portofolio = () => {
                 </div>
               )}
 
+              {/* DASHBOARD BROWSER MOCKUP */}
+              {item.type === "dashboard" && item.image && (
+                <div className="mb-6">
+                  {/* Browser chrome bar */}
+                  <div className="rounded-t-xl bg-gray-200 border border-gray-300 border-b-0 px-3 py-2 flex items-center gap-2">
+                    {/* Traffic lights */}
+                    <span className="w-2.5 h-2.5 rounded-full bg-red-400 inline-block" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-yellow-400 inline-block" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-green-400 inline-block" />
+                    {/* Fake URL bar */}
+                    <div className="ml-2 flex-1 bg-white rounded-md px-3 py-0.5 text-[10px] text-gray-400 border border-gray-300 truncate">
+                      pltu-monitor.local/dashboard
+                    </div>
+                  </div>
+                  {/* Screenshot */}
+                  <div className="rounded-b-xl overflow-hidden border border-gray-300 border-t-0 shadow-lg">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-full object-cover object-top"
+                      style={{ maxHeight: "200px" }}
+                    />
+                  </div>
+                </div>
+              )}
+
               <h3 className="font-semibold text-[#111439] text-lg">
                 {item.title}
               </h3>
@@ -83,7 +111,7 @@ const Portofolio = () => {
                 {item.desc}
               </p>
 
-              {/* BADGE */}
+              {/* BADGE - mobile */}
               {item.type === "mobile" && (
                 <span
                   className="
@@ -100,6 +128,26 @@ const Portofolio = () => {
                   "
                 >
                   Flutter • Android App
+                </span>
+              )}
+
+              {/* BADGE - dashboard */}
+              {item.type === "dashboard" && (
+                <span
+                  className="
+                    mt-4
+                    inline-block
+                    w-fit
+                    text-xs
+                    font-medium
+                    px-3
+                    py-1
+                    rounded-full
+                    bg-[#111439]
+                    text-white
+                  "
+                >
+                  HTML • CSS • JavaScript
                 </span>
               )}
             </div>
