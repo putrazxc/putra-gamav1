@@ -6,7 +6,7 @@ const portfolioItems = [
   {
     title: "Industrial IoT Dashboard",
     desc: "Real-time monitoring dashboard with sensor integration and data visualization.",
-    image: "/assets/monitoringdash.png",
+    image: "/assets/monitoring.png",
     type: "dashboard",
   },
   {
