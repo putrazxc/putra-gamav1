@@ -16,8 +16,8 @@ const DashboardMockup = () => {
           </p>
 
           <ul className="mt-8 space-y-4 text-gray-700">
-            <li>⚡ YOLO-based real-time detection</li>
-            <li>📡 ESP32 / IoT integration</li>
+            <li>⚡ YOLOv26-based real-time detection</li>
+            <li>📡 Jetson Nano & ESP32 / IoT integration</li>
             <li>📊 Live dashboard & analytics</li>
             <li>🧠 Edge AI optimization</li>
           </ul>
@@ -44,7 +44,7 @@ const DashboardMockup = () => {
               <img 
                 src="/assets/traffic-monitoring.png" 
                 alt="Traffic Monitoring"
-                className="w-full h-40 object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
