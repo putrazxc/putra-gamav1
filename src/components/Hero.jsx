@@ -389,7 +389,7 @@ const Hero = () => {
             <span className="text-lg">🤖</span>
             <div>
               <p className="text-[11px] font-bold text-white leading-none">AI Computer Vision</p>
-              <p className="text-[9px] text-white/70 mt-0.5">YOLO v8 active</p>
+              <p className="text-[9px] text-white/70 mt-0.5">YOLO v26 active</p>
             </div>
           </motion.div>
 
