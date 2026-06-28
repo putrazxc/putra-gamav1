@@ -10,11 +10,13 @@ const DashboardMockup = () => {
           </h2>
 
           <p className="mt-6 text-gray-600">
-            Designing intelligent embedded systems, computer vision pipelines,
-            and real-time monitoring dashboards for industrial and smart-city
-            applications.
+            PPPPP.
           </p>
 
+{/* #Designing intelligent embedded systems, computer vision pipelines,
+            and real-time monitoring dashboards for industrial and smart-city
+            applications. Right Mockup */}
+          
           <ul className="mt-8 space-y-4 text-gray-700">
             <li>⚡ YOLOv26-based real-time detection</li>
             <li>📡 Jetson Nano & ESP32 / IoT integration</li>
